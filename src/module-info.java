@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author FISH
+ *
+ */
+module JavaProjects {
+}
