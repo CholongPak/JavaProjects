@@ -24,7 +24,7 @@ public class Email {
 		
 		// Call a method asking for the department - return the department
 		this.department = setDepartment();
-		System.out.println("Department: " + this.department);
+		// System.out.println("Department: " + this.department);
 		
 		// Call a method that returns a random password
 		this.password = randomPassword(this.defaultPasswordLength);
@@ -34,11 +34,11 @@ public class Email {
 		if(this.department.equals(""))
 		{
 			this.email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + this.companySuffix;
-			System.out.println("Your email is:" + this.email);
+			// System.out.println("Your email is:" + this.email);
 		} else 
 		{
 			this.email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + this.department + "." + this.companySuffix;
-		System.out.println("Your email is:" + this.email);
+			// System.out.println("Your email is:" + this.email);
 		}
 		
 		
